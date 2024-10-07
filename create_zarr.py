@@ -3,8 +3,8 @@ from pathlib import Path
 import datetime
 from numcodecs import Blosc
 
-zip_folder = Path("zips/")
-metadata_file = Path("zips/FLX_AA-Flx_BIF_HH_20200501.xlsx")
+zip_folder = Path("/data/fluxnet/zips/")
+metadata_file = Path("/data/fluxnet/zips/FLX_AA-Flx_BIF_HH_20200501.xlsx")
 
 vars_attrs = {
     "TA_F": {"name": "ta", "long_name": "air temperature", "units": "degC"},

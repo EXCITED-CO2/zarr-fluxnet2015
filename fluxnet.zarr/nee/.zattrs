@@ -3,8 +3,8 @@
         "site",
         "time"
     ],
-    "add_offset": -79.95,
+    "add_offset": -93.59,
     "long_name": "net ecosystem exchange",
-    "scale_factor": 0.0019816272965879267,
+    "scale_factor": 0.0024827107367393028,
     "units": "umolCO2 m-2 s-1"
 }

@@ -141,7 +141,7 @@ def read_ameriflux_csv(
 
     ds_site = df_req.to_xarray()
     ds_site = ds_site.rename({"TIMESTAMP_END": "time"})
-    ds_site = ds_site.resample(time="1h").mean()  # faster if flox is installed!
+    ds_site = ds_site.resample(time="30Min").interpolate("nearest")
     ds_site["time"] = ds_site["time"].values - site_tz_offset
     ds_site = ds_site.expand_dims("site")
 

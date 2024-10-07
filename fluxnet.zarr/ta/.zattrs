@@ -3,8 +3,8 @@
         "site",
         "time"
     ],
-    "add_offset": -52.8485,
+    "add_offset": -52.883,
     "long_name": "air temperature",
-    "scale_factor": 0.0015122154062137583,
+    "scale_factor": 0.0015128944637734236,
     "units": "degC"
 }

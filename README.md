@@ -3,7 +3,7 @@
 Rehost of the [FLUXNET 2015 dataset](https://fluxnet.org/data/fluxnet2015-dataset/) as a Zarr store for easier access.
 
 It currently serves as a demo of what is possible. Only six variables (and some quality flags) are included at the moment.
-The total Zarr store size is only 125 MB, so more variables can still be included here on GitHub.
+The total Zarr store size is only 200 MB, so more variables can still be included here on GitHub.
 
 ## How to use
 

@@ -7,7 +7,7 @@
         "gpp_dt/.zarray": {
             "chunks": [
                 1,
-                333101
+                420775
             ],
             "compressor": {
                 "blocksize": 0,
@@ -22,7 +22,7 @@
             "order": "C",
             "shape": [
                 204,
-                333101
+                420775
             ],
             "zarr_format": 2
         },
@@ -39,7 +39,7 @@
         "gpp_nt/.zarray": {
             "chunks": [
                 1,
-                333101
+                420775
             ],
             "compressor": {
                 "blocksize": 0,
@@ -54,7 +54,7 @@
             "order": "C",
             "shape": [
                 204,
-                333101
+                420775
             ],
             "zarr_format": 2
         },
@@ -63,9 +63,9 @@
                 "site",
                 "time"
             ],
-            "add_offset": -49.62,
+            "add_offset": -67.692,
             "long_name": "gross primary production (nighttime partitioning method)",
-            "scale_factor": 0.0023522859061222,
+            "scale_factor": 0.002628059573948605,
             "units": "umolCO2 m-2 s-1"
         },
         "latitude/.zarray": {
@@ -129,7 +129,7 @@
         "nee/.zarray": {
             "chunks": [
                 1,
-                333101
+                420775
             ],
             "compressor": {
                 "blocksize": 0,
@@ -144,7 +144,7 @@
             "order": "C",
             "shape": [
                 204,
-                333101
+                420775
             ],
             "zarr_format": 2
         },
@@ -153,15 +153,15 @@
                 "site",
                 "time"
             ],
-            "add_offset": -79.95,
+            "add_offset": -93.59,
             "long_name": "net ecosystem exchange",
-            "scale_factor": 0.0019816272965879267,
+            "scale_factor": 0.0024827107367393028,
             "units": "umolCO2 m-2 s-1"
         },
         "nee_qc/.zarray": {
             "chunks": [
                 1,
-                333101
+                420775
             ],
             "compressor": {
                 "blocksize": 0,
@@ -176,7 +176,7 @@
             "order": "C",
             "shape": [
                 204,
-                333101
+                420775
             ],
             "zarr_format": 2
         },
@@ -218,7 +218,7 @@
         "sw_in/.zarray": {
             "chunks": [
                 1,
-                333101
+                420775
             ],
             "compressor": {
                 "blocksize": 0,
@@ -233,7 +233,7 @@
             "order": "C",
             "shape": [
                 204,
-                333101
+                420775
             ],
             "zarr_format": 2
         },
@@ -244,13 +244,13 @@
             ],
             "add_offset": 0.0,
             "long_name": "incoming shortwave radiation",
-            "scale_factor": 0.01907465055240188,
+            "scale_factor": 0.020484190929622167,
             "units": "W m-2"
         },
         "sw_in_qc/.zarray": {
             "chunks": [
                 1,
-                333101
+                420775
             ],
             "compressor": {
                 "blocksize": 0,
@@ -265,7 +265,7 @@
             "order": "C",
             "shape": [
                 204,
-                333101
+                420775
             ],
             "zarr_format": 2
         },
@@ -281,7 +281,7 @@
         "ta/.zarray": {
             "chunks": [
                 1,
-                333101
+                420775
             ],
             "compressor": {
                 "blocksize": 0,
@@ -296,7 +296,7 @@
             "order": "C",
             "shape": [
                 204,
-                333101
+                420775
             ],
             "zarr_format": 2
         },
@@ -305,15 +305,15 @@
                 "site",
                 "time"
             ],
-            "add_offset": -52.8485,
+            "add_offset": -52.883,
             "long_name": "air temperature",
-            "scale_factor": 0.0015122154062137583,
+            "scale_factor": 0.0015128944637734236,
             "units": "degC"
         },
         "ta_qc/.zarray": {
             "chunks": [
                 1,
-                333101
+                420775
             ],
             "compressor": {
                 "blocksize": 0,
@@ -328,7 +328,7 @@
             "order": "C",
             "shape": [
                 204,
-                333101
+                420775
             ],
             "zarr_format": 2
         },
@@ -343,7 +343,7 @@
         },
         "time/.zarray": {
             "chunks": [
-                41638
+                52597
             ],
             "compressor": {
                 "blocksize": 0,
@@ -357,7 +357,7 @@
             "filters": null,
             "order": "C",
             "shape": [
-                333101
+                420775
             ],
             "zarr_format": 2
         },
@@ -371,7 +371,7 @@
         "vpd/.zarray": {
             "chunks": [
                 1,
-                333101
+                420775
             ],
             "compressor": {
                 "blocksize": 0,
@@ -386,7 +386,7 @@
             "order": "C",
             "shape": [
                 204,
-                333101
+                420775
             ],
             "zarr_format": 2
         },
@@ -397,13 +397,13 @@
             ],
             "add_offset": 0.0,
             "long_name": "vapor pressure deficit",
-            "scale_factor": 0.0014812839528779832,
+            "scale_factor": 0.0014820393090398583,
             "units": "kPa"
         },
         "vpd_qc/.zarray": {
             "chunks": [
                 1,
-                333101
+                420775
             ],
             "compressor": {
                 "blocksize": 0,
@@ -418,7 +418,7 @@
             "order": "C",
             "shape": [
                 204,
-                333101
+                420775
             ],
             "zarr_format": 2
         },

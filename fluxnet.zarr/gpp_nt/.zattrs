@@ -3,8 +3,8 @@
         "site",
         "time"
     ],
-    "add_offset": -49.62,
+    "add_offset": -67.692,
     "long_name": "gross primary production (nighttime partitioning method)",
-    "scale_factor": 0.0023522859061222,
+    "scale_factor": 0.002628059573948605,
     "units": "umolCO2 m-2 s-1"
 }
