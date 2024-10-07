@@ -1,0 +1,10 @@
+timezonefinder
+xarray
+zarr
+netCDF4
+ipython
+ipykernel
+openpyxl
+flox
+matplotlib
+dask[diagnostics]
