@@ -1,0 +1,10 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "site",
+        "time"
+    ],
+    "add_offset": -52.8485,
+    "long_name": "air temperature",
+    "scale_factor": 0.0015122154062137583,
+    "units": "degC"
+}

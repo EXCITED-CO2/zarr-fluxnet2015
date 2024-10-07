@@ -1,0 +1,9 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "site",
+        "time"
+    ],
+    "add_offset": 0.0,
+    "long_name": "incoming shortwave radiation quality flag",
+    "scale_factor": 3.051944088384301e-05
+}

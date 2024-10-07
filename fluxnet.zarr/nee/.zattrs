@@ -1,0 +1,10 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "site",
+        "time"
+    ],
+    "add_offset": -79.95,
+    "long_name": "net ecosystem exchange",
+    "scale_factor": 0.0019816272965879267,
+    "units": "umolCO2 m-2 s-1"
+}

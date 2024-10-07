@@ -1,0 +1,436 @@
+{
+    "metadata": {
+        ".zattrs": {},
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "gpp_dt/.zarray": {
+            "chunks": [
+                1,
+                333101
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 3,
+                "cname": "zstd",
+                "id": "blosc",
+                "shuffle": 2
+            },
+            "dtype": "<u2",
+            "fill_value": 65535,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                204,
+                333101
+            ],
+            "zarr_format": 2
+        },
+        "gpp_dt/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "site",
+                "time"
+            ],
+            "add_offset": 0.0,
+            "long_name": "gross primary production (daytime partitioning method)",
+            "scale_factor": 0.0012136299822987243,
+            "units": "umolCO2 m-2 s-1"
+        },
+        "gpp_nt/.zarray": {
+            "chunks": [
+                1,
+                333101
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 3,
+                "cname": "zstd",
+                "id": "blosc",
+                "shuffle": 2
+            },
+            "dtype": "<u2",
+            "fill_value": 65535,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                204,
+                333101
+            ],
+            "zarr_format": 2
+        },
+        "gpp_nt/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "site",
+                "time"
+            ],
+            "add_offset": -49.62,
+            "long_name": "gross primary production (nighttime partitioning method)",
+            "scale_factor": 0.0023522859061222,
+            "units": "umolCO2 m-2 s-1"
+        },
+        "latitude/.zarray": {
+            "chunks": [
+                1
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 3,
+                "cname": "zstd",
+                "id": "blosc",
+                "shuffle": 2
+            },
+            "dtype": "<u2",
+            "fill_value": 65535,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                204
+            ],
+            "zarr_format": 2
+        },
+        "latitude/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "site"
+            ],
+            "add_offset": -37.4259,
+            "long_name": "Fluxnet site latitude",
+            "scale_factor": 0.0017754307819080753,
+            "units": "degrees_north"
+        },
+        "longitude/.zarray": {
+            "chunks": [
+                1
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 3,
+                "cname": "zstd",
+                "id": "blosc",
+                "shuffle": 2
+            },
+            "dtype": "<u2",
+            "fill_value": 65535,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                204
+            ],
+            "zarr_format": 2
+        },
+        "longitude/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "site"
+            ],
+            "add_offset": -157.4089,
+            "long_name": "Fluxnet site longitude",
+            "scale_factor": 0.004864040926570225,
+            "units": "degrees_east"
+        },
+        "nee/.zarray": {
+            "chunks": [
+                1,
+                333101
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 3,
+                "cname": "zstd",
+                "id": "blosc",
+                "shuffle": 2
+            },
+            "dtype": "<u2",
+            "fill_value": 65535,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                204,
+                333101
+            ],
+            "zarr_format": 2
+        },
+        "nee/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "site",
+                "time"
+            ],
+            "add_offset": -79.95,
+            "long_name": "net ecosystem exchange",
+            "scale_factor": 0.0019816272965879267,
+            "units": "umolCO2 m-2 s-1"
+        },
+        "nee_qc/.zarray": {
+            "chunks": [
+                1,
+                333101
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 3,
+                "cname": "zstd",
+                "id": "blosc",
+                "shuffle": 2
+            },
+            "dtype": "<u2",
+            "fill_value": 65535,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                204,
+                333101
+            ],
+            "zarr_format": 2
+        },
+        "nee_qc/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "site",
+                "time"
+            ],
+            "add_offset": 0.0,
+            "long_name": "net ecosystem exchange quality flag",
+            "scale_factor": 4.577916132576451e-05
+        },
+        "site/.zarray": {
+            "chunks": [
+                204
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<U6",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                204
+            ],
+            "zarr_format": 2
+        },
+        "site/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "site"
+            ],
+            "long_name": "Fluxnet site code"
+        },
+        "sw_in/.zarray": {
+            "chunks": [
+                1,
+                333101
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 3,
+                "cname": "zstd",
+                "id": "blosc",
+                "shuffle": 2
+            },
+            "dtype": "<u2",
+            "fill_value": 65535,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                204,
+                333101
+            ],
+            "zarr_format": 2
+        },
+        "sw_in/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "site",
+                "time"
+            ],
+            "add_offset": 0.0,
+            "long_name": "incoming shortwave radiation",
+            "scale_factor": 0.01907465055240188,
+            "units": "W m-2"
+        },
+        "sw_in_qc/.zarray": {
+            "chunks": [
+                1,
+                333101
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 3,
+                "cname": "zstd",
+                "id": "blosc",
+                "shuffle": 2
+            },
+            "dtype": "<u2",
+            "fill_value": 65535,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                204,
+                333101
+            ],
+            "zarr_format": 2
+        },
+        "sw_in_qc/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "site",
+                "time"
+            ],
+            "add_offset": 0.0,
+            "long_name": "incoming shortwave radiation quality flag",
+            "scale_factor": 3.051944088384301e-05
+        },
+        "ta/.zarray": {
+            "chunks": [
+                1,
+                333101
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 3,
+                "cname": "zstd",
+                "id": "blosc",
+                "shuffle": 2
+            },
+            "dtype": "<u2",
+            "fill_value": 65535,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                204,
+                333101
+            ],
+            "zarr_format": 2
+        },
+        "ta/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "site",
+                "time"
+            ],
+            "add_offset": -52.8485,
+            "long_name": "air temperature",
+            "scale_factor": 0.0015122154062137583,
+            "units": "degC"
+        },
+        "ta_qc/.zarray": {
+            "chunks": [
+                1,
+                333101
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 3,
+                "cname": "zstd",
+                "id": "blosc",
+                "shuffle": 2
+            },
+            "dtype": "<u2",
+            "fill_value": 65535,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                204,
+                333101
+            ],
+            "zarr_format": 2
+        },
+        "ta_qc/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "site",
+                "time"
+            ],
+            "add_offset": 0.0,
+            "long_name": "air temperature quality flag",
+            "scale_factor": 3.051944088384301e-05
+        },
+        "time/.zarray": {
+            "chunks": [
+                41638
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                333101
+            ],
+            "zarr_format": 2
+        },
+        "time/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "calendar": "proleptic_gregorian",
+            "units": "minutes since 1991-01-01 06:00:00"
+        },
+        "vpd/.zarray": {
+            "chunks": [
+                1,
+                333101
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 3,
+                "cname": "zstd",
+                "id": "blosc",
+                "shuffle": 2
+            },
+            "dtype": "<u2",
+            "fill_value": 65535,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                204,
+                333101
+            ],
+            "zarr_format": 2
+        },
+        "vpd/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "site",
+                "time"
+            ],
+            "add_offset": 0.0,
+            "long_name": "vapor pressure deficit",
+            "scale_factor": 0.0014812839528779832,
+            "units": "kPa"
+        },
+        "vpd_qc/.zarray": {
+            "chunks": [
+                1,
+                333101
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 3,
+                "cname": "zstd",
+                "id": "blosc",
+                "shuffle": 2
+            },
+            "dtype": "<u2",
+            "fill_value": 65535,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                204,
+                333101
+            ],
+            "zarr_format": 2
+        },
+        "vpd_qc/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "site",
+                "time"
+            ],
+            "add_offset": 0.0,
+            "long_name": "vapor pressure deficit quality flag",
+            "scale_factor": 3.051944088384301e-05
+        }
+    },
+    "zarr_consolidated_format": 1
+}

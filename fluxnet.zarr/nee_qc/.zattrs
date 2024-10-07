@@ -1,0 +1,9 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "site",
+        "time"
+    ],
+    "add_offset": 0.0,
+    "long_name": "net ecosystem exchange quality flag",
+    "scale_factor": 4.577916132576451e-05
+}

@@ -1,0 +1,10 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "site",
+        "time"
+    ],
+    "add_offset": 0.0,
+    "long_name": "gross primary production (daytime partitioning method)",
+    "scale_factor": 0.0012136299822987243,
+    "units": "umolCO2 m-2 s-1"
+}

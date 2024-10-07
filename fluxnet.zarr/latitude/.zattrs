@@ -1,0 +1,9 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "site"
+    ],
+    "add_offset": -37.4259,
+    "long_name": "Fluxnet site latitude",
+    "scale_factor": 0.0017754307819080753,
+    "units": "degrees_north"
+}
