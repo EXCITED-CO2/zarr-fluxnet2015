@@ -107,6 +107,9 @@ if __name__ == "__main__":
         "units": "degrees_north",
     }
     ds = ds.chunk({"time": -1, "site": 1})
+
+    ds.attrs = dataset_attrs
+
     print("Writing to zarr")
     ds.to_zarr(
         store="fluxnet.zarr",
