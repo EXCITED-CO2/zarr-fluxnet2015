@@ -6,5 +6,5 @@
     "add_offset": 0.0,
     "long_name": "vapor pressure deficit",
     "scale_factor": 0.0014820393090398583,
-    "units": "kPa"
+    "units": "hPa"
 }

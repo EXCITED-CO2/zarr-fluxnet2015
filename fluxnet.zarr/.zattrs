@@ -4,7 +4,7 @@
     "citation": "Pastorello, G., Trotta, C., Canfora, E. et al. The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data. Sci Data 7, 225 (2020).",
     "description": "The FLUXNET2015 Dataset includes data collected at sites from multiple regional flux networks. The preparation of this FLUXNET Dataset has been possible thanks only to the efforts of many scientists and technicians around the world and the coordination among teams from regional networks.",
     "doi": "https://doi.org/10.1038/s41597-020-0534-3",
-    "history": "Converted from FULLSET FLUXNET2015 to Zarr on 2024-10-08 14:39:35.139665+00:00.",
+    "history": "Converted from FULLSET FLUXNET2015 to Zarr on 2024-10-09 13:12:48.156352+00:00.",
     "license": "CC-BY-4.0",
     "title": "FLUXNET2015 Dataset"
 }

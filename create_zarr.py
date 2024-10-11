@@ -18,7 +18,7 @@ vars_attrs = {
         "name": "sw_in_qc",
         "long_name": "incoming shortwave radiation quality flag",
     },
-    "VPD_F": {"name": "vpd", "long_name": "vapor pressure deficit", "units": "kPa"},
+    "VPD_F": {"name": "vpd", "long_name": "vapor pressure deficit", "units": "hPa"},
     "VPD_F_QC": {"name": "vpd_qc", "long_name": "vapor pressure deficit quality flag"},
     "GPP_NT_VUT_REF": {
         "name": "gpp_nt",
